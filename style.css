@@ -1,18 +1,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 body{
-    background-color: #1F2937;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
 
-.nav-bar{
+.hero{
+    background-color: #1F2937;
+
+}
+.wrapper{
     display: flex;
-    list-style: none;
-    justify-content: space-around;
+    flex-direction: column;
+    background-color: #1F2937;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+
 }
 
-.header-logo, .nav-links{
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    display: flex;
+}
+
+.nav-links{
     display: flex;
     list-style: none;
 }
@@ -35,27 +54,34 @@ ul{
     padding: 0px;
 }
 
-.hero{
+.heading{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.hero-left{
+.heading-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 45px;
+
 }
 
-.hero-left h1{
+.heading-left h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0px;
 }
 
-.hero-left p {
+.heading-left p {
     color: #E5E7EB;
-    font-size: 24px;
+    font-size: 18px;
+    margin: 0px;
 }
 
-.hero-left button{
+.heading-left button{
     padding: 8px 25px;
     background-color: #3882F6;
     color: #E5E7EB;
@@ -65,8 +91,12 @@ ul{
 
 }
 
-.hero-right{
-    color:  #E5E7EB;;
+.heading img{
+flex: 1;
+   width: 150px;
+   height: auto;
+
+
     
 }
 
