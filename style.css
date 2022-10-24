@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
 body, button{
     margin: 0px;
     padding: 0px;
@@ -9,11 +10,10 @@ body, button{
 
 
 .hero{
-    background-color: #0b0024;
-    background-image: url("./imgs/Stars\ in\ the\ Universe\ Galaxy\ Zoom\ Virtual\ Background.jpg");
-   
-
+    background-size: cover;
+    background-image: url("./imgs/universe.jpg");   
 }
+
 .hero .wrapper{
     display: flex;
     flex-direction: column;
@@ -27,11 +27,9 @@ body, button{
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.header-logo{
-    display: flex;
-}
 
 .nav-links{
     display: flex;
@@ -67,6 +65,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 5px;
     
 
 }
@@ -130,7 +129,9 @@ padding: 30px;
     border-radius: 18px;
 }
 
+/** group image and p into one div car**/
 .info-item{
+    flex-shrink: 2;
     width: 220px;
     text-align: center;
     font-size: 18px;
@@ -144,6 +145,7 @@ padding: 30px;
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
+    padding: 38px 20px;
     
 }
 
@@ -163,7 +165,7 @@ padding: 30px;
 }
 
 .call-action{
-    margin: 30px 45px;
+    padding: 58px 45px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +205,7 @@ padding: 30px;
 }
 
 .footer{
-    padding: 30px;
+    padding: 35px;
     background-color: #1F2937;
     color: #F9FAF8;;
 }
@@ -211,10 +213,4 @@ padding: 30px;
 .footer div{
     text-align: center;
 }
-
-
-
-/*div{
-    border: 2px red solid;
-}*/
 
