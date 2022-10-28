@@ -120,6 +120,7 @@ padding: 30px;
     display: flex;
     justify-content: center;
     gap: 35px;
+    flex-wrap: wrap;
    
 }
 
@@ -131,7 +132,6 @@ padding: 30px;
 
 /** group image and p into one div car**/
 .info-item{
-    flex-shrink: 2;
     width: 220px;
     text-align: center;
     font-size: 18px;
